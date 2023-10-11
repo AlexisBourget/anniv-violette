@@ -1,0 +1,153 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+section {
+    background-color: hsl(216, 12%, 8%);
+    width: 25em;
+    height: 32em;
+    border-radius: 2em;
+    padding-bottom: 2em;
+    position: absolute;
+}
+
+h1 {
+    margin: 1em;
+}
+
+.feedback-text{
+    color: hsl(217, 12%, 63%);
+    margin: 1.7em;
+}
+
+.choice {
+    margin: 1.7em;
+}
+
+.star {
+    margin: 1.3em 0 1.3em 1.6em;
+}
+
+.close-button {
+    width: 1.7em;
+    font-weight: 1300;
+    color: white;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    width: 2.3em;
+    transition: 0.1s;
+}
+
+.close-container {
+    position: absolute;
+    top: 10px; 
+    right: 10px;
+}
+
+.notes {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 1em 0 1em;
+
+}
+
+.notes p {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notes p:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-weight: 800;
+}
+
+/* .notes p.active {
+    background-color: green;
+    color: white;
+} */
+
+.notes p:active,
+.notes p:focus {
+    background-color: green;
+    color: white;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 2em;
+    flex-grow: 1;
+}
+
+button {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border-radius: 4em;
+    padding: 0.5em 6em 0.5em 6em;
+    font-weight: 800;
+    margin-top: 1em;
+    flex-grow: 1;
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    font-weight: 800;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 5em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.image_thanks {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.score {
+    text-align: center;
+    background-color: grey;
+    width: 70%;
+    padding: 0.6em;
+    border-radius: 10em;
+    font-weight:800;
+    margin: 0 auto;
+}
+
+.notes p.selected {
+    background-color: green;
+    color: white;
+    font-weight: 800;
+  }
+  
