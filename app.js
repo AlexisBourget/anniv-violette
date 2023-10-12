@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   noteButton2.addEventListener('click', () => {
   
-      window.location.href = `weekend.html`;
+      window.location.href = `photos-vannes.html`;
     }
   );
 
